@@ -7,8 +7,6 @@
 <p align="center">
   <a href="https://agentlas.cloud">agentlas.cloud</a>
   ·
-  <a href="https://github.com/jeongmk522-netizen/Agentlas_public_repo">Agentlas Agent Lab</a>
-  ·
   <a href="https://github.com/jeongmk522-netizen/agentlas_org_chart">agentlas_org_chart</a>
 </p>
 
