@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">Agentlas Org Chart workflow</title>
+  <desc id="desc">A hierarchy-first multi-agent workflow with mission owner, strategy office, workstream managers, team leads, workers, QA, risk, and final synthesis.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f4ee; }
+      .box { fill: #ffffff; stroke: #1f2933; stroke-width: 2; rx: 10; }
+      .owner { fill: #153b50; }
+      .office { fill: #fbf3d5; }
+      .manager { fill: #e6f0f4; }
+      .worker { fill: #f2e7dc; }
+      .guard { fill: #eadfee; }
+      .text { fill: #17212b; font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 700; }
+      .sub { fill: #344454; font-family: Arial, Helvetica, sans-serif; font-size: 15px; }
+      .white { fill: #ffffff; }
+      .line { stroke: #1f2933; stroke-width: 2.5; fill: none; }
+      .dash { stroke-dasharray: 7 7; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1120" height="640"/>
+
+  <rect class="box owner" x="410" y="36" width="300" height="78"/>
+  <text class="text white" x="560" y="70" text-anchor="middle">Mission Owner</text>
+  <text class="sub white" x="560" y="95" text-anchor="middle">goal, budget, final stop</text>
+
+  <path class="line" d="M560 114 L560 152"/>
+  <rect class="box office" x="410" y="152" width="300" height="72"/>
+  <text class="text" x="560" y="183" text-anchor="middle">Strategy Office</text>
+  <text class="sub" x="560" y="207" text-anchor="middle">decompose and set acceptance</text>
+
+  <path class="line" d="M560 224 L560 260"/>
+  <path class="line" d="M210 260 L910 260"/>
+  <path class="line" d="M210 260 L210 296"/>
+  <path class="line" d="M560 260 L560 296"/>
+  <path class="line" d="M910 260 L910 296"/>
+
+  <rect class="box manager" x="60" y="296" width="300" height="76"/>
+  <text class="text" x="210" y="327" text-anchor="middle">Division Manager</text>
+  <text class="sub" x="210" y="352" text-anchor="middle">workstream state owner</text>
+
+  <rect class="box manager" x="410" y="296" width="300" height="76"/>
+  <text class="text" x="560" y="327" text-anchor="middle">Team Lead</text>
+  <text class="sub" x="560" y="352" text-anchor="middle">bounded task owner</text>
+
+  <rect class="box guard" x="760" y="296" width="300" height="76"/>
+  <text class="text" x="910" y="327" text-anchor="middle">Risk / QA Office</text>
+  <text class="sub" x="910" y="352" text-anchor="middle">reject, block, escalate</text>
+
+  <path class="line" d="M560 372 L560 412"/>
+  <path class="line" d="M335 412 L785 412"/>
+  <path class="line" d="M335 412 L335 448"/>
+  <path class="line" d="M560 412 L560 448"/>
+  <path class="line" d="M785 412 L785 448"/>
+
+  <rect class="box worker" x="200" y="448" width="270" height="76"/>
+  <text class="text" x="335" y="479" text-anchor="middle">Specialist Worker</text>
+  <text class="sub" x="335" y="504" text-anchor="middle">focused execution</text>
+
+  <rect class="box worker" x="515" y="448" width="270" height="76"/>
+  <text class="text" x="650" y="479" text-anchor="middle">Specialist Worker</text>
+  <text class="sub" x="650" y="504" text-anchor="middle">focused execution</text>
+
+  <path class="line dash" d="M470 486 C510 548 610 548 650 524"/>
+  <text class="sub" x="560" y="574" text-anchor="middle">Workers return upward; peer handoff needs manager approval.</text>
+
+  <path class="line" d="M910 372 C910 542 738 588 560 588 C382 588 210 542 210 372"/>
+  <text class="sub" x="560" y="615" text-anchor="middle">Revision loops are counted, bounded, and escalated.</text>
+</svg>
