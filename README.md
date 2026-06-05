@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://agentlas.cloud">agentlas.cloud</a>
   ·
-  <a href="https://github.com/jeongmk522-netizen/agentlas_org_chart">agentlas_org_chart</a>
+  <a href="https://github.com/agentlas-ai/agentlas_org_chart">agentlas_org_chart</a>
 </p>
 
 <p align="center">
